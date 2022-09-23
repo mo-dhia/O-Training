@@ -8,7 +8,9 @@
 
 }
 
-
+a:hover {
+    color: #E30C40;
+}
 
 .nav-bar {
     position: absolute;
@@ -53,7 +55,8 @@
     font-size: 15px;
     line-height: 11px;
     font-family: 'Inter', sans-serif;
-
+    color: #000000;
+    text-decoration: none;
 }
 
 .nav-btn {
@@ -66,24 +69,10 @@
     color: #E30C40;
     top: 14%;
     right: 3%;
-    margin-right: 2%;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
 }
 
-.nav-btn-filled {
-    width: 85px;
-    height: 42px;
-    float: right;
-    background: #E30C40;
-    border: 1px solid #EBEBEB;
-    border-radius: 4px;
-    color: #FFFFFF;
-    top: 14%;
-    right: 3%;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
-}
 
 .title {
     font-family: 'Inter';
@@ -96,13 +85,24 @@
     color: #E30C40;
 }
 
+.footer-titles {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 3%;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
 .first-paragraph {
     margin-top: 20px;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 28px;
     line-height: 43px;
     /* or 167% */
 
@@ -151,6 +151,61 @@
     color: #000000;
 }
 
+
+/* The check-container */
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 29px;
+    width: 29.5px;
+    background-color: #eee;
+    border-radius: 50%;
+
+}
+
+
+/* When the checkbox is checked, add a red background */
+.check-container input:checked~.checkmark {
+    background-color: #E30C40;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+}
+
+
+
+/* Style the checkmark/indicator */
+.check-container .checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    /* border-radius: 100% 0% 0% 100%; */
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
 @media (max-width: 900px) {
     .Bloger {
         flex-direction: column;
@@ -172,6 +227,6 @@
     }
 
     .menu {
-        display:block;
+        display: block;
     }
 }
