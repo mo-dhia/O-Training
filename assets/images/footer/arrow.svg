@@ -1,3 +1,5 @@
 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse cx="22.3089" cy="21.9461" rx="21.6407" ry="21.6486" transform="rotate(90 22.3089 21.9461)" fill="#E30C40"/>
+<path d="M22.3091 16.1196L22.3091 29.437" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.3049 21.1137L22.6502 15.452C22.6076 15.4002 22.5552 15.3588 22.4964 15.3304C22.4377 15.302 22.374 15.2874 22.3096 15.2874C22.2451 15.2874 22.1814 15.302 22.1227 15.3304C22.064 15.3588 22.0116 15.4002 21.9689 15.452L17.3133 21.1137" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -2,8 +2,6 @@
 
 * {
     position: relative;
-    /* width: 1440px;
-    height: 3451px; */
     background: #FFFFFF;
 
 }
@@ -28,9 +26,10 @@ a:hover {
 
 .nav-icon {
     position: absolute;
-    left: 3.5%;
+    left: 1.8%;
     right: 0%;
-    top: 20%;
+    top: 15%;
+    width: 43px;
 }
 
 .menu {
@@ -43,16 +42,17 @@ a:hover {
 .menu-group {
     display: inline-block;
     position: relative;
-    left: 8%;
-    top: 35%
+    left: 5.8%;
+    top: 30%;
+    background-color: transparent;
 }
 
 .menu-titles {
     display: inline-block;
-    margin-left: 52px;
+    margin-left: 35px;
     font-style: normal;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 11px;
     font-family: 'Inter', sans-serif;
     color: #000000;
@@ -78,11 +78,11 @@ a:hover {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size:
-        50px;
-    line-height: 70px;
+    font-size: 53px;
+    line-height: 73px;
     letter-spacing: 1.1px;
     color: #E30C40;
+    margin-left: 1%;
 }
 
 .footer-titles {
