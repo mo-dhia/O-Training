@@ -105,9 +105,7 @@ a:hover {
     font-size: 28px;
     line-height: 43px;
     /* or 167% */
-
     letter-spacing: 1px;
-
     color: #000000;
 }
 
@@ -228,5 +226,12 @@ a:hover {
 
     .menu {
         display: block;
+    }
+
+    .first-paragraph {
+        font-size: 22px;
+    }
+    .second-paragraph {
+        font-size: 20.5px;
     }
 }
