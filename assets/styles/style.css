@@ -51,12 +51,13 @@ a:hover {
     line-height: 11px;
 }
 
-.left-menu {
+.right-menu {
     display: inline-flex;
 }
 
-.left-menu img {
-    display: none
+.right-menu img {
+    display: none;
+    margin-left: 30px;
 }
 
 .nav-bar button {
@@ -328,7 +329,7 @@ footer hr {
         display: none;
     }
 
-    .left-menu img {
+    .right-menu img {
         display: block
     }
 }
