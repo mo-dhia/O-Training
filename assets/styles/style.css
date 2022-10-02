@@ -37,7 +37,10 @@ a:hover {
 
 }
 
-
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+}
 
 .nav-bar li {
     display: inline-block;
@@ -48,8 +51,16 @@ a:hover {
     line-height: 11px;
 }
 
+.left-menu {
+    display: inline-flex;
+}
+
+.left-menu img {
+    display: none
+}
+
 .nav-bar button {
-    background: #FFFFFF;
+    background-color: transparent;
     border: 1px solid #EBEBEB;
     border-radius: 4px;
     padding: 13px;
@@ -58,6 +69,8 @@ a:hover {
     line-height: 11px;
     margin-left: 17px;
 }
+
+
 
 main {
     margin: 129px 10vw 162px 10vw
@@ -309,5 +322,13 @@ footer hr {
     .Bloger p {
         margin-left: 0%;
         margin-top: 30px;
+    }
+
+    .nav-bar li {
+        display: none;
+    }
+
+    .left-menu img {
+        display: block
     }
 }
