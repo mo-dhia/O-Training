@@ -50,7 +50,8 @@ main p {
 }
 
 .first-section .img-part img {
-    float: right
+    float: right;
+
 }
 
 .first-section button {
@@ -66,7 +67,6 @@ main p {
     align-items: center;
     color: #FFFFFF;
     margin-right: 12px;
-
 }
 
 .first-section button img {
@@ -77,3 +77,66 @@ main p {
 
 
 
+
+
+@media (max-width: 1080px) {
+    main {
+        margin: 85px 14.2vw 162px 14.2vw;
+    }
+
+
+
+
+    main h6 {
+        font-size: 15px;
+    }
+
+    main h1 {
+
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    main p {
+        font-size: 21px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .first-section {
+        flex-direction: column;
+    }
+
+    .button-container {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .first-section button {
+        font-size: 20px;
+        margin-right: 27px;
+        padding: 33px 60px;
+        margin-top: 50px;
+
+    }
+
+    .first-section button img {
+        margin-top: -2px;
+        padding-right: 20px;
+        width: 23px
+    }
+
+
+
+    .first-section .img-part {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-section .img-part img {
+        float: none;
+        width: 71.6vw;
+    }
+}
