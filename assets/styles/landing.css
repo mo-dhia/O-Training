@@ -22,6 +22,22 @@ main h1 {
     line-height: 50px;
 }
 
+main h2 {
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 47px;
+    color: #E30C40;
+}
+
+main h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
+
+    letter-spacing: 0.1px;
+}
+
 main p {
     margin-top: 13px;
     font-weight: 400;
@@ -76,6 +92,67 @@ main p {
 }
 
 
+.second-section {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.second-section .text-part {
+    flex: 43%;
+}
+
+
+.second-section .img-part {
+    flex: 57%;
+
+}
+
+
+
+/* input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+
+input[type="submit"] {
+    margin-left: -50px;
+    height: 25px;
+    width: 50px;
+    background: blue;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+} */
+
+.second-section input[type="text"] {
+    margin-top: 35px;
+    border: 1px solid #C4C4C4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    width: 220px;
+    font-size: 12px;
+    padding: 11px 18px;
+}
+
+.second-section input[type="submit"] {
+    position: relative;
+    z-index: 200;
+    top: 5px;
+
+    margin-left: -2%;
+    
+    height: 35px;
+    width: 18%;
+    background-color: #E30C40;
+    color: white;
+    font-size: 160%;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    -webkit-appearance: none;
+}
 
 
 
